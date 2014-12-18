@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.struts2maven;
+package com.mycompany.struts2maven.action;
 
 /**
  *
@@ -18,7 +18,7 @@ import com.opensymphony.xwork2.ActionSupport;
  
 @Namespace("/User")
 @ResultPath(value="/")
-@Result(name="success",location="pages/login.jsp")
+@Result(name="success",location="/login.jsp")
 public class LoginAction extends ActionSupport{
  
 }

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.struts2maven;
+package com.mycompany.struts2maven.action;
 
 /**
  *
